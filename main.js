@@ -19,7 +19,7 @@ function adicionaLinha() {
     const inputNomeContato = document.getElementById('nome-contato');
     const inputNumeroTelefone = document.getElementById('numero-telefone');
 
-    if (contatos.includes(inputNomeContato.value)) {
+    if (numero.includes(inputNumeroTelefone.value)) {
         alert(`O número: ${inputNumeroTelefone.value} ja foi utilizado`);
     } else {
         contatos.push(inputNomeContato.value);
